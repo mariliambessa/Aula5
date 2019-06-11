@@ -1,4 +1,10 @@
-#principal {
+#cafe {
 	width: 10%;
 	align-self: center;
 }
+
+
+.cafeteria {
+	max-width: 30%;
+}
+
