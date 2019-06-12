@@ -9,8 +9,9 @@ header {
 }
 
 header > img {
-	margin-left: 50%;
+	margin-left: 45%;
 	width: 50px;
+	margin-bottom: 20px;
 }
 
 nav {
@@ -25,7 +26,7 @@ ul {
 }
 
 nav > ul > li {
-	padding: 10px 20px;
+	padding: 10px 10px;
 	display: inline;
 	text-align: center; 
 	letter-spacing: 1px;
@@ -41,4 +42,8 @@ li:hover {
 section {
 	display: flex;
 	justify-content: space-around;
+}
+
+img {
+	width: 200px;
 }
