@@ -1,21 +1,16 @@
-#cafe {
-	width: 10%;
-	margin-left: 47%;
-}
-
-
-.cafeteria {
-	max-width: 30%;
-}
-
 #menu {
 	background-color: white;
-	width: 35%;
+	width: 30%;
 	margin-left: 35%;
 }
 
 header {
 	padding: 20px;
+}
+
+header > img {
+	margin-left: 50%;
+	width: 50px;
 }
 
 nav {
@@ -28,8 +23,22 @@ ul {
 	padding: 0;
 	align-self: center;
 }
-li {
-	padding: 10px;
+
+nav > ul > li {
+	padding: 10px 20px;
 	display: inline;
-	border-color: grey; 
+	text-align: center; 
+	letter-spacing: 1px;
+}
+
+li:hover {
+	transition: 2s color;
+	color: white;
+	background-color: brown;
+	cursor: pointer;
+}
+
+section {
+	display: flex;
+	justify-content: space-around;
 }
