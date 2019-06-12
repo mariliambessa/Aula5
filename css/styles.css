@@ -1,6 +1,6 @@
 #cafe {
 	width: 10%;
-	align-self: center;
+	margin-left: 47%;
 }
 
 
@@ -8,3 +8,28 @@
 	max-width: 30%;
 }
 
+#menu {
+	background-color: white;
+	width: 35%;
+	margin-left: 35%;
+}
+
+header {
+	padding: 20px;
+}
+
+nav {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	align-self: center;
+}
+li {
+	padding: 10px;
+	display: inline;
+	border-color: grey; 
+}
